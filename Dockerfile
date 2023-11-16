@@ -1,4 +1,4 @@
-FROM node:20.0.5-alpine AS build
+FROM node:20.5.0-alpine AS build
 # Create a Virtual directory inside the docker image
 WORKDIR /app
 # Copy files to virtual directory
